@@ -1,5 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
 
+import AppServices from './services';
+import AppAbout from './about';
+import Content from './Content';
+import AppContact from './contact';
+
 var heroData = [
   {
     id: 1,
@@ -16,7 +21,8 @@ var heroData = [
 
 function AppHero() {
   return (
-    <section id="home" className="hero-block">
+    <div>
+      <section id="home" className="hero-block">
        <Carousel controls={false} indicators={false}>
           {
             heroData.map(hero => {
@@ -37,8 +43,14 @@ function AppHero() {
             })
           }
       </Carousel>
-      <div style={{marginTop:'100px'}}>Hero</div>
     </section>
+     
+     <AppAbout />
+     {/* services == experience */}
+     <AppServices /> 
+     <Content />
+     <AppContact />
+    </div>
   );
 }
 

@@ -23,11 +23,11 @@ function AppFooter() {
 
   return (
     <Container fluid>
-      <div className="copyright">&copy; 2022 Corporate. All Right Reserved.</div>
+      <div className="copyright">&copy; Riya Mishra. All Right Reserved.</div>
       <div className="socials">
         <ul>
-          <li><a href="https://www.facebook.com"><i className="fab fa-facebook-f"></i></a></li>
-          <li><a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://wa.me/+918890099108"><i className='fab fa-whatsapp'></i></a></li>
+          <li><a href="https://www.twitter.com"><i className="fab fa-facebook-f"></i></a></li>
           <li><a href="https://www.linkedin.com"><i className="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>

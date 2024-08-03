@@ -1,0 +1,30 @@
+
+.expSecCOn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.expSecCOn span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.expCon{
+    margin-bottom: 25px;
+    padding: 12px 20px;
+}
+
+/* .expCon:hover{
+    background-color: #ff69b445;
+    transition-duration: 0.5s;
+    border-radius: 12px;
+} */
+
+
+@media only screen and (max-width: 767px) {
+    .expCon{
+        width: 380px;
+        margin: 25px auto;
+    }
+}

@@ -1,0 +1,25 @@
+.AboutName {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #ff69b4;
+}
+
+.pfpCon{
+    border-radius: 50%;
+    max-width: 277px;
+}
+.boldC{
+  font-size: 17px;
+}
+@media only screen and (max-width: 767px) {
+  .AboutName {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .pfpCon{
+    max-width: 187px;
+  }
+  .boldC{
+    font-size: 16.3px;
+  }
+}

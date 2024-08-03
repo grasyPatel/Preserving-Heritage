@@ -1,0 +1,41 @@
+
+.expSecCOn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.expSecCOn span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.expConC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff69b445;
+    margin: 10px;
+    height: 200px;
+    width: 281px;
+    border-radius: 12px;
+}
+
+.expConC:hover{
+    background-color: #ff69b496;
+    transition-duration: 0.5s;
+    transform: scale(1.04);
+}
+.expConC a h4{
+    font-weight: 900;
+    font-size: 27px;
+    color: #f31484;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .expConC{
+        width: 324px;
+        margin: 25px auto;
+    }
+}

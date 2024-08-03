@@ -37,7 +37,7 @@ h4,
 h5,
 h6 {
   font-family: "Muli", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0 0 20px;
   color: inherit;
 }
@@ -313,7 +313,7 @@ textarea {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #ff69b4;
+  background: #ff44a1;
   border-radius: 3px;
   color: #fff;
   border: 0;
@@ -335,35 +335,35 @@ textarea {
 }
 
 .go-top:hover {
-  background: #f41a1a;
+  background: #af1160;
 }
 
 .pagination>li.active a {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #ff69b4;
+  border-color: #ff69b4;
 }
 
 .pagination>li.active a:hover {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #ff69b4;
+  border-color: #ff69b4;
 }
 
 .pagination>li>a {
-  color: #f64b4b;
+  color: #ff69b4;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   padding: 6px 15px 12px;
 }
 
 .pagination>li>a:hover {
-  background: #f64b4b;
+  background: #ff69b4;
   color: #fff;
-  border-color: #f64b4b;
+  border-color: #ff69b4;
 }
 
 .pagetitle {
   margin: 80px 0 0;
-  background: #f64b4b;
+  background: #ff69b4;
   color: #fff;
   padding: 50px 0;
 }
@@ -460,7 +460,7 @@ textarea {
 }
 
 #footer .socials a:hover {
-  background: #f53333;
+  background: #f31484;
 }
 
 .block {
@@ -874,12 +874,12 @@ textarea {
 
 .blog-block .card-title {
   margin: 0 0 10px;
-  color: #f64b4b;
+  color: #ff69b4;
   font-size: 22px;
 }
 
 .blog-block .card-title a:hover {
-  color: #d10a0a;
+  color: #ff69b4;
 }
 
 .blog-block .meta {
@@ -902,7 +902,7 @@ textarea {
 }
 
 .blog-block .meta .category a:hover {
-  color: #f64b4b;
+  color: #ff69b4;
 }
 
 .contact-block {
@@ -949,7 +949,7 @@ textarea {
   display: block;
   font-size: 40px;
   margin: 0 0 15px;
-  color: #f64b4b;
+  color: #ff69b4;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1024,12 +1024,18 @@ textarea {
 }
 
 @media only screen and (max-width: 767px) {
+
+  .aboutTextCon {
+    width: 380px;
+    margin: 25px auto;
+  }
+
   h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .title-holder {
@@ -1173,6 +1179,12 @@ textarea {
 
   .contact-block .contact-info .fas {
     font-size: 26px;
-    margin: 0;
+    margin: 0 0 10px;
+  }
+
+  .contact-details-Con{
+      display: flex;
+    flex-direction: column;
+    gap: 32px;
   }
 }
