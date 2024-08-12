@@ -12,9 +12,14 @@ import AppServices from './components/services';
 // import AppTestimonials from './components/testimonials';
 // import AppPricing from './components/pricing';
 // import AppBlog from './components/blog';
-import AppContact from './components/contact';
+// import AppContact from './components/contact';
+// import Content from './components/Content';
 import AppFooter from './components/footer';
-import Content from './components/Content';
+import Blog from './components/works/Blog';
+import PerticularBlog from './components/works/Blogs/PerticularBlog';
+import SEBI from './components/works/Blogs/SEBI';
+import Webpage from './components/works/Webpage';
+import SocialMediaCopy from './components/works/SocialMediaCopy';
 
 function App() {
   return (
@@ -24,8 +29,11 @@ function App() {
             <AppHeader />
           </header>
           <Routes>
-            <Route path="/" element={<AppHero />}>
-            </Route>
+            <Route path="/" element={<AppHero />} />
+            <Route path='/blog' element={<Blog />} />
+            <Route path='/sebi' element= {<SEBI />} />
+            <Route path='/webpage' element={<Webpage /> } />
+            <Route path='/social-media-copy' element={<SocialMediaCopy /> } />
           </Routes>
           <footer id='footer'>
             <AppFooter />

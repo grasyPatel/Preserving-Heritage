@@ -14,10 +14,7 @@ function Content() {
         </div>
         <Row>
           <Col sm={3} className="expConC">
-            <Link to="/blog"><h4>Blog</h4></Link>
-          </Col>
-          <Col sm={3} className="expConC">
-            <Link to="/article"><h4>Article</h4></Link>
+            <Link to="/blog"><h4>Blog and Article</h4></Link>
           </Col>
           <Col sm={3} className="expConC">
             <Link to="/webpage"><h4>Webpage</h4></Link>
@@ -30,6 +27,12 @@ function Content() {
           </Col>
           <Col sm={3} className="expConC">
             <Link to="/script"><h4>Script</h4></Link>
+          </Col>
+          <Col sm={3} className="expConC">
+            <Link to="/news-letter"><h4>News Letter</h4></Link>
+          </Col>
+          <Col sm={3} className="expConC">
+            <Link to="/preview-analysis"><h4>Preview Analysis</h4></Link>
           </Col>
         </Row>
       </Container>

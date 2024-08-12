@@ -27,8 +27,8 @@ function AppFooter() {
       <div className="socials">
         <ul>
           <li><a target="_blank" rel="noreferrer" href="https://wa.me/+918890099108"><i className='fab fa-whatsapp'></i></a></li>
-          <li><a href="https://www.twitter.com"><i className="fab fa-facebook-f"></i></a></li>
-          <li><a href="https://www.linkedin.com"><i className="fab fa-linkedin-in"></i></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riya-mishra-a59983181?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i className='fab fa-linkedin-in'></i></a></li>
+          {/* <li><a href="https://www.twitter.com"><i className="fab fa-facebook-f"></i></a></li> */}
         </ul>
       </div>
       {
