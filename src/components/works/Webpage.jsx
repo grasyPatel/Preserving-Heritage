@@ -47,7 +47,27 @@ const blogData = [
 `,
     link: require('../../assets/webPages/WeddEdit-Homepage.docx'),
   },
-  
+  {
+    id: 6,
+    image: require('../../assets/images/blog1.jpg'),
+    time: '07 Nov 2016',
+    title: 'One Pager Arihant Capital.',
+    description: `Arihant Capital India leading SEBI & exchange registered broker, trusted by more than 2.0 Lacs plus customers. 
+“Create Wealth for you and your loved Ones”.
+Arihant Capital has 29 years plus experience in dedicated customer servicing relationship, and wealth creation.
+At HNI desk at Arihant we offer best in class and 1to1 dedicated service and take care of their portfolio like our own. 
+`,
+    link: require('../../assets/webPages/One-Pager-Arihant-Capital..docx'),
+  },
+  {
+    id: 7,
+    image: require('../../assets/images/blog1.jpg'),
+    time: '07 Nov 2016',
+    title: 'ArihantPlus Home Page & Contact Us Page',
+    description: `Our experts provide tailored recommendations and dedicated support to help you achieve your financial goals. Trade with confidence and ease, knowing you have the guidance to navigate the markets and maximize your profitability.
+`,
+    link: require('../../assets/webPages/ArihantPlusHomePage&Contact-Us.docx'),
+  },
 ]
 
 function Webpage() {

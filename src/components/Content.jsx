@@ -32,7 +32,7 @@ function Content() {
             <Link to="/news-letter"><h4>News Letter</h4></Link>
           </Col>
           <Col sm={3} className="expConC">
-            <Link to="/preview-analysis"><h4>Preview Analysis</h4></Link>
+            <Link to="/resumes"><h4>Resumes</h4></Link>
           </Col>
         </Row>
       </Container>

@@ -20,6 +20,8 @@ import PerticularBlog from './components/works/Blogs/PerticularBlog';
 import SEBI from './components/works/Blogs/SEBI';
 import Webpage from './components/works/Webpage';
 import SocialMediaCopy from './components/works/SocialMediaCopy';
+import Email from './components/works/Email';
+import Scripts from './components/works/Scripts';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
             <Route path='/sebi' element= {<SEBI />} />
             <Route path='/webpage' element={<Webpage /> } />
             <Route path='/social-media-copy' element={<SocialMediaCopy /> } />
+            <Route path='/email' element={<Email /> } />
+            <Route path='/script' element={<Scripts /> } />
           </Routes>
           <footer id='footer'>
             <AppFooter />
