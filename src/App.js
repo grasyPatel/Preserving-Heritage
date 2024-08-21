@@ -22,6 +22,8 @@ import Webpage from './components/works/Webpage';
 import SocialMediaCopy from './components/works/SocialMediaCopy';
 import Email from './components/works/Email';
 import Scripts from './components/works/Scripts';
+import NewsLetter from './components/works/NewsLetter';
+import Resumes from './components/works/Resumes';
 
 function App() {
   return (
@@ -38,6 +40,8 @@ function App() {
             <Route path='/social-media-copy' element={<SocialMediaCopy /> } />
             <Route path='/email' element={<Email /> } />
             <Route path='/script' element={<Scripts /> } />
+            <Route path='/news-letter' element={<NewsLetter /> } />
+            <Route path='/resumes' element={<Resumes /> } />
           </Routes>
           <footer id='footer'>
             <AppFooter />

@@ -4,6 +4,7 @@ import AppServices from './services';
 import AppAbout from './about';
 import Content from './Content';
 import AppContact from './contact';
+import AppClient from './Clients';
 
 var heroData = [
   {
@@ -46,9 +47,10 @@ function AppHero() {
     </section>
      
      <AppAbout />
-     {/* services == experience */}
-     <AppServices /> 
-     <Content />
+     <AppServices /> {/* services == experience */}
+     <Content /> {/*content = works */}
+     { /* AppClient companines i have worked with */}
+     <AppClient /> 
      <AppContact />
     </div>
   );

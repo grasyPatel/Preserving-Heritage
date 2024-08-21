@@ -19,6 +19,7 @@ function AppHeader() {
             <Nav.Link href="#testimonials">Testimonials</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link> */}
             <Nav.Link href="#work">Work</Nav.Link>
+            <Nav.Link href="#connections">My Clients</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
