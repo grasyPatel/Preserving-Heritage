@@ -16,8 +16,8 @@
 }
 .center{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .imgCon{
@@ -34,6 +34,8 @@
 
 .p-center{
   text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 
