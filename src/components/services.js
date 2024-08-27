@@ -29,6 +29,22 @@ function AppServices() {
             </p>
           </Col>
           <Col sm={4} className="expCon">
+            {/* <div className="icon">
+                    <i className={services.icon}></i>
+                  </div> */}
+            <h3>Sr. Content Strategist</h3>
+            <div className="expSecCOn">
+              <span>Arihant Capital</span>{" "}
+              <span>March 2024 -  August</span>
+            </div>
+            <p>
+              Arihant Capital was one of several firms I
+              worked for, articles, product descriptions, web content, and
+              copywriting.Additionally, I was involved in brand strategy
+              development and team management across these organizations.
+            </p>
+          </Col>
+          <Col sm={4} className="expCon">
             <h3>Sr. Content Strategist</h3>
             <div className="expSecCOn">
               <span>Autus Digital Agency , New Delhi</span>{" "}
