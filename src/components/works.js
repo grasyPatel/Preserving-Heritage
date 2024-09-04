@@ -14,7 +14,7 @@ const worksData = [
   },
   {
     id: 2,
-    link: 'https://www.google.com',
+    link: 'https://www.google.com', 
     image: require('../assets/images/img3.jpg'),
     title: 'Photographer Girl',
     subtitle: 'Branding'

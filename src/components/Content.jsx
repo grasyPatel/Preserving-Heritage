@@ -10,29 +10,26 @@ function Content() {
     <section id="work" className="block services-block">
       <Container fluid>
         <div className="title-holder">
-          <h1>Work Done By Me</h1>
+          <h1>Dummy</h1>
         </div>
         <Row>
           <Col sm={3} className="expConC">
-            <Link to="/blog"><h4>Blog and Article</h4></Link>
+            <Link to="/blog"><h4>1 </h4></Link>
           </Col>
           <Col sm={3} className="expConC">
-            <Link to="/webpage"><h4>Webpage</h4></Link>
+            <Link to="/webpage"><h4>2</h4></Link>
           </Col>
           <Col sm={3} className="expConC">
-            <Link to="/social-media-copy"><h4>Social Media Copy</h4></Link>
+            <Link to="/social-media-copy"><h4>3</h4></Link>
           </Col>
           <Col sm={3} className="expConC">
-            <Link to="/email"><h4>Email</h4></Link>
+            <Link to="/email"><h4>4</h4></Link>
           </Col>
           <Col sm={3} className="expConC">
-            <Link to="/script"><h4>Script</h4></Link>
+            <Link to="/script"><h4>5</h4></Link>
           </Col>
           <Col sm={3} className="expConC">
-            <Link to="/news-letter"><h4>News Letter</h4></Link>
-          </Col>
-          <Col sm={3} className="expConC">
-            <Link to="/resumes"><h4>Resumes</h4></Link>
+            <Link to="/news-letter"><h4>6</h4></Link>
           </Col>
         </Row>
       </Container>

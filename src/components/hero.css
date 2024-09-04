@@ -1,0 +1,54 @@
+
+
+.LeftCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name{
+    color: #ff69b4;
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.Proffesion{
+    font-size: 30px;
+}
+
+.RightCon{
+    /* height: 500px; */
+    margin-top: 40px;
+}
+
+.ImgdivforPic{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainImg{
+    height: 80vh;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+   .RightCon{
+    display: none;
+   }
+   .LeftCon{
+    margin: 40vw 0;
+   }
+   .Name{
+    text-align: center;
+    font-size: 40px;
+   }
+   .Proffesion{
+    font-size: 20px;
+    text-align: center;
+   }
+   .para{
+    display: none;
+   }
+}
