@@ -10,7 +10,7 @@ import AppTestimonials from "./testimonials";
 var heroData = [
   {
     id: 1,
-    image: require("../assets/heritage-culture/h1.jpg"),
+    image: require("../assets/heritage-culture/h11.jpeg"),
   },
   {
     id: 2,
