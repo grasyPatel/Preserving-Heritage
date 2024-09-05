@@ -383,7 +383,7 @@ textarea {
   right: 0;
   top: 0;
   z-index: 9999;
-  background: #fff;
+  background: #626262;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.5s linear;
 }
@@ -395,7 +395,7 @@ textarea {
 }
 
 #header .navbar-brand {
-  color: #ff69b4;
+  color: white;
   text-transform: uppercase;
   font-weight: 600;
   height: auto;
@@ -418,14 +418,14 @@ textarea {
 }
 
 #header .navbar-collapse a {
-  color: #4d4d4d;
+  color: white;
   position: relative;
 }
 
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
   background: none;
-  color: #ff69b4;
+  color: white;
 }
 
 #header .navbar-collapse a:hover:before,
@@ -437,7 +437,7 @@ textarea {
 
 #header .navbar-collapse a:before {
   content: '';
-  background: #ff69b4;
+  background: white;
   height: 1px;
   position: absolute;
   bottom: 7px;
@@ -449,7 +449,7 @@ textarea {
 }
 
 #footer {
-  background: #ff69b4;
+  background: #626262;
   padding: 50px 0;
   color: #fff;
   text-align: center;

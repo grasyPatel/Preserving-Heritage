@@ -1,32 +1,31 @@
 import Carousel from "react-bootstrap/Carousel";
 
-import Content from "./Content";
 import { Row, Col, Container } from "react-bootstrap";
 import "./hero.css";
 import AppServices from "./services";
-import Table from "./Table";
-import AppTestimonials from "./testimonials";
+import FlashCard from "./FlashCard/FlashCard";
+import Game from "./Game";
 
 var heroData = [
   {
     id: 1,
-    image: require("../assets/heritage-culture/h1.jpg"),
+    image: require("../assets/heritage-culture/banner.jpeg"),
   },
-  {
-    id: 2,
-    image: require("../assets/heritage-culture/h2.jpg"),
-  },
-  {
-    id: 3,
-    image: require("../assets/heritage-culture/h3.jpg"),
-  },
+  // {
+  //   id: 2,
+  //   image: require("../assets/heritage-culture/h2.jpg"),
+  // },
+  // {
+  //   id: 3,
+  //   image: require("../assets/heritage-culture/h3.jpg"),
+  // },
 ];
 
 function AppHero() {
   return (
     <div>
       <section className="hero-block">
-        <Carousel controls={true} indicators={false}>
+        <Carousel controls={false} indicators={false}>
           {heroData.map((hero) => {
             return (
               <Carousel.Item key={hero.id}>
@@ -65,17 +64,19 @@ function AppHero() {
                 <img
                   className="mainImg"
                   src={require("../assets/heritage-culture/hero2.jpg")}
-                  alt="riya-mishra"
+                  alt="hero"
                 ></img>
               </div>
             </Col>
           </Row>
         </Container>
       </section>
+      <FlashCard />
       <AppServices /> {/* services == art, dance, */}
-      <Table />
+      {/* <Table /> */}
       {/* <AppTestimonials /> */}
-      <Content /> {/*content = dummy, */}
+      {/* <Content /> content = dummy, */}
+      <Game />
     </div>
   );
 }

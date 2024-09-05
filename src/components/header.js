@@ -12,6 +12,8 @@ function AppHeader() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#blog">Blog</Nav.Link>
+            <Nav.Link href="/map">Explore Map</Nav.Link>
+            <Nav.Link href="/catagories">Catagories</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
