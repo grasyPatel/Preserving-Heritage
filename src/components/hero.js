@@ -5,6 +5,7 @@ import "./hero.css";
 import AppServices from "./services";
 import FlashCard from "./FlashCard/FlashCard";
 import Game from "./Game";
+import AppFooter from "./footer";
 
 var heroData = [
   {
@@ -77,6 +78,10 @@ function AppHero() {
       {/* <AppTestimonials /> */}
       {/* <Content /> content = dummy, */}
       <Game />
+
+      <footer id='footer'>
+            <AppFooter />
+          </footer>
     </div>
   );
 }

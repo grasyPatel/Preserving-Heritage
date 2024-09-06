@@ -1,5 +1,5 @@
 import React from "react";
-
+import './FlashCardHover.css'
 const FlashCardHover = () => {
   return (
     <div className="Parent">

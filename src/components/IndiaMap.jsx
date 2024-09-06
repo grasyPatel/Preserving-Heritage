@@ -41,6 +41,7 @@ const IndiaMap = () => {
       hoverComponent={({ value }) => {
         return (
           <>
+             
             <p>{value.name}</p>
           </>
         );

@@ -10,6 +10,7 @@ import IndiaMap from './components/IndiaMap';
 import MadhyaPradesh from './components/States/MadhyaPradesh';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -21,10 +22,10 @@ function App() {
             <Route path="/" element={<AppHero />} />
             <Route path="/map" element={<IndiaMap />} />
             <Route path="/MadhyaPradesh" element={<MadhyaPradesh />} />
+            
+
           </Routes>
-          <footer id='footer'>
-            <AppFooter />
-          </footer>
+          
       </BrowserRouter>
     </div>
   );
