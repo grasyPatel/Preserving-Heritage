@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppHeader from './components/header';
 import AppHero from './components/hero';
 import AppFooter from './components/footer';
+import IndiaMap from './components/IndiaMap';
+import MadhyaPradesh from './components/States/MadhyaPradesh';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           </header>
           <Routes>
             <Route path="/" element={<AppHero />} />
+            <Route path="/map" element={<IndiaMap />} />
+            <Route path="/MadhyaPradesh" element={<MadhyaPradesh />} />
           </Routes>
           <footer id='footer'>
             <AppFooter />
