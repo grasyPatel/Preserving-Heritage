@@ -31,6 +31,7 @@ function AppHero() {
             return (
               <Carousel.Item key={hero.id}>
                 <img
+                  style={{opacity:'0.9'}}
                   className="d-block w-100"
                   src={hero.image}
                   alt={"slide " + hero.id}
