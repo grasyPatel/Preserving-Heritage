@@ -20,7 +20,7 @@ const MadhyaPradesh = () => {
   var heroData = [
     {
       id: 1,
-      image: require("../../assets/MP/dance3.jpg"),
+      image: require("../../assets/MP/mpDance1.jpg"),
       title: "Dance",
       description: `Gwalior Gharana: One of the oldest and most prestigious schools of Hindustani classical music, known for Dhrupad and Khayal singing.
 Tansen Music Festival: Held in Gwalior to honor the legendary musician Tansen, a key figure in Indian classical music.
@@ -29,7 +29,7 @@ Classical Dance: Kathak is performed in many parts, with influences from the Mug
     },
     {
       id: 2,
-      image: require("../../assets/MP/dance.jpeg"),
+      image: require("../../assets/MP/Mela.jpg"),
       title: "Fairs and Festivals",
       description: `Khajuraho Dance Festival: Celebrates classical dance forms like Kathak, Bharatanatyam, and Odissi, held against the backdrop of the famous Khajuraho temples.
 Teej and Lokrang: Festivals celebrating local folk culture, with dance, music, and performances.
